@@ -1,0 +1,38 @@
+name: Proposal
+description: Create a new proposal
+labels: [bug]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      description: "A summary of the project you're proposing and who is going to be working on it "
+      placeholder: ""
+    validations:
+      required: true
+  - type: textarea
+    id: timeline
+    attributes:
+      description: "Timeline: When could you start working on the project, if approved; And how long would it take?"
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      description: "Best case outcome "
+      placeholder: "What does success look like?"
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Success criteria
+      description: How can the success of this project be objectively measured and evaluated?
+    validations:
+      required: true
+  - type: input
+    id: Funding
+    attributes:
+      label: Funding required, if any.
+      description: Funding required, if any.
+    validations:
+      required: true
