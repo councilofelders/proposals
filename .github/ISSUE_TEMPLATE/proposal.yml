@@ -1,25 +1,26 @@
 name: Proposal
 description: Create a new proposal
-labels: [bug]
+labels: ["proposal"]
 body:
   - type: textarea
     id: proposal
+    label: Proposal
     attributes:
       description: "A summary of the project you're proposing and who is going to be working on it "
-      placeholder: ""
     validations:
       required: true
   - type: textarea
     id: timeline
+    label: Timeline
     attributes:
-      description: "Timeline: When could you start working on the project, if approved; And how long would it take?"
+      description: "When could you start working on the project, if approved; And how long would it take?"
     validations:
       required: true
   - type: textarea
     id: outcome
+    label: Best case outcome
     attributes:
-      description: "Best case outcome "
-      placeholder: "What does success look like?"
+      description: "What does success look like?"
     validations:
       required: true
   - type: textarea
