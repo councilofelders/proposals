@@ -1,0 +1,7 @@
+blank_issues_enabled: false
+contact_links:
+  - name: CoE section in Numerai Forum
+    url: https://forum.numer.ai/c/council-of-elders
+  - name: Numerai chat
+    url: https://rocketchat.numer.ai/
+    about: This is where most of the discussion happens
