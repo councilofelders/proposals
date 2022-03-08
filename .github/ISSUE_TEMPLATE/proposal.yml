@@ -4,22 +4,22 @@ labels: ["proposal"]
 body:
   - type: textarea
     id: proposal
-    label: Proposal
     attributes:
+      label: Proposal
       description: "A summary of the project you're proposing and who is going to be working on it "
     validations:
       required: true
   - type: textarea
     id: timeline
-    label: Timeline
     attributes:
+        label: Timeline
       description: "When could you start working on the project, if approved; And how long would it take?"
     validations:
       required: true
   - type: textarea
     id: outcome
-    label: Best case outcome
     attributes:
+      label: Best case outcome
       description: "What does success look like?"
     validations:
       required: true
